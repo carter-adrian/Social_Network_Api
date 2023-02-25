@@ -22,7 +22,7 @@ const userController = {
             select: '-__v'
         })
         .populate({
-            path: 'friends'
+            path: 'friends',
             select: '-__v'
         })
         .then(dbUserData => {
