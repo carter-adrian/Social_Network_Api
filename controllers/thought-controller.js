@@ -71,7 +71,7 @@ const thoughtController = {
             res.json(dbThoughtData);
         })
         .catch(err => res.json(err));   
-    }
+    },
 
 
     deleteThought({ params }, res) {
